@@ -1,0 +1,55 @@
+body {margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.table_menu {
+    background-color: gray;
+}
+
+/* margin выравнивание таблицу 
+width Задает ширину страницы*/
+.table_menu, .start, .body, .body2 {
+    margin: 0 auto;
+    width: 1200px;
+
+}
+.start {
+    background: url("../Img/banner.png");
+}
+/* text-align центрирует текст */
+.table_menu td, .start td, a {
+    text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+td.logo {
+text-align: left; 
+}
+.body, .body2 {
+    text-align: center;
+}
+
+.body h3 {
+    color: green;
+}
+.body p {
+    color: grey;
+}
+.line1 {
+padding-left: 60px ;
+padding-top: 100px;
+padding-right: 60px; 
+}
+.line2 {
+    padding-left: 60px ;
+    padding-top: 20px ;
+    padding-right: 60px ; 
+    }
+
+    hr {
+        margin-top: 60px;
+    }
+.line3 {
+    padding: auto;
+}
