@@ -26,10 +26,14 @@ a {
 td.logo {
 text-align: left; 
 }
-.body, .body2 {
+body, .body2 {
     text-align: center;
 }
-
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .body h3 {
     color: green;
 }
@@ -52,4 +56,67 @@ padding-right: 60px;
     }
 .line3 {
     padding: auto;
+    text-align: left;
 }
+ .footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.footer-wrapper{
+    background-color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    padding: 20px 0;
+}
+ .social-links {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.social-links p, .copyright p {
+    
+    text-align: center;
+}
+.social-links p {
+    margin: 0;
+}
+.social-links a {
+    text-decoration: underline;
+}
+/* Content*/
+
+.content-wrapper {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+.content-wrapper div {
+    width: 50%;
+    text-align: center;
+}
+.content-wrapper h3 {
+    color: #6DC72A;
+}
+.content-wrapper p {
+    color: #999;
+    padding: 0 20px;
+}
+@media screen and (max-width: 900px) {
+    .content-wrapper {
+        width: 100%;
+    }
+    .content-wrapper div {
+        padding: 0 20px;
+        width: 100%;
+    }
+} 
+    
+/* 
+div - блок
+footer - нижний блок
+*/
